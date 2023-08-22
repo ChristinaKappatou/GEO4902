@@ -14,7 +14,7 @@ See numerical integration, numerical simulation.
 ~~~
 
 ## What is reanalysis?
-According to the [Glossary of Meteorology]([https://glossary.ametsoc.org/wiki/Climate_prediction](https://glossary.ametsoc.org/wiki/Reanalysis)), _reanalysis_ is defined as 
+According to the [Glossary of Meteorology](https://glossary.ametsoc.org/wiki/Reanalysis), _reanalysis_ is defined as 
 
 ~~~  
 Same as analysis, except for two important practical differences.
