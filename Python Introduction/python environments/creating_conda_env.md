@@ -121,7 +121,7 @@ In GEO4902, we currently use the following packages as listed in the [environmen
 To check which versions you have installed run the following in a Jupyter notebook.
 ```
 from platform import python_version
-import nc_time_axis
+#import nc_time_axis
 import zarr 
 import xarray as xr
 import matplotlib as mpl
@@ -131,12 +131,12 @@ import cmcrameri as cm
 import scipy
 import intake
 import seaborn
-import xesmf
+#import xesmf
 import cartopy as crs
 import netCDF4
 
 print('python: version {}'.format(python_version()))
-print('nc_time_axis: version {}'.format(nc_time_axis.__version__))
+#print('nc_time_axis: version {}'.format(nc_time_axis.__version__))
 print('zarr: version {}'.format(zarr.__version__))
 print('xarray: version {}'.format(xr.__version__))
 print('matplotlib: version {}'.format(mpl.__version__))
@@ -146,9 +146,9 @@ print('cmcrameri: version {}'.format(cm.__version__))
 print('scipy: version {}'.format(scipy.__version__))
 print('intake: version {}'.format(intake.__version__))
 print('seaborn: version {}'.format(seaborn.__version__))
-print('xesmf: version {}'.format(xesmf.__version__))
+#print('xesmf: version {}'.format(xesmf.__version__))
 print('cartopy: version {}'.format(crs.__version__))
-print('netCDF4: version {}'.format(netcdf.__version__))
+print('netCDF4: version {}'.format(netCDF4.__version__))
 
 !jupyter --version
 
