@@ -133,6 +133,7 @@ import intake
 import seaborn
 import xesmf
 import cartopy as crs
+import netCDF4
 
 print('python: version {}'.format(python_version()))
 print('nc_time_axis: version {}'.format(nc_time_axis.__version__))
@@ -147,6 +148,7 @@ print('intake: version {}'.format(intake.__version__))
 print('seaborn: version {}'.format(seaborn.__version__))
 print('xesmf: version {}'.format(xesmf.__version__))
 print('cartopy: version {}'.format(crs.__version__))
+print('netCDF4: version {}'.format(netcdf.__version__))
 
 !jupyter --version
 
