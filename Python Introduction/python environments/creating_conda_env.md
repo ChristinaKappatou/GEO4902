@@ -55,21 +55,21 @@ The following steps are taken from the CodeRefinerey workshop software [installa
 1. If you have not, activate `conda` in Miniconda first using `conda activate`.
 2. Run the following command
 ```
-$ conda env create -f environment_geo4902.yml
+$ conda env create -f environment_geo4902env.yml
 
 ```
-> **_NOTE:_** You need to have downloaded the [environment file](./environment_geo4902.yml) located in the GEO4902/conda directory or create your own conda environment with the package listed in the [environment file](./environment_geo4902.yml). (Package versions can be found at the end of the document.)
+> **_NOTE:_** You need to have downloaded the [environment file](./environment_geo4902env.yml) located in the GEO4902/conda directory or create your own conda environment with the package listed in the [environment file](./environment_geo4902env.yml). (Package versions can be found at the end of the document.)
 > 
-1. Make sure you see "geo4902" in the output when you ask for a list of all available environments:
+1. Make sure you see "geo4902env" in the output when you ask for a list of all available environments:
 ```
 $ conda env list
 ```
 
-## Activate the `geo4902` envrionment
+## Activate the `geo4902env` envrionment
 ```
-$ conda activate geo4902
+$ conda activate geo4902env
 ```
-## Deactivate the `geo4902` envrionment
+## Deactivate the `geo4902env` envrionment
 ```
 $ conda deactivate
 
@@ -79,13 +79,13 @@ $ conda deactivate
 $ conda install NEW_PACKAGE
 ```
 
-## Remove the `geo4902` envrionment
+## Remove the `geo4902env` envrionment
 ```
-$ conda remove --name geo4902 --all
+$ conda remove --name geo4902env --all
 ```
 
 ## Package versions currently used
-In GEO4902, we currently use the following packages as listed in the [environment file](./environment_geo4902.yml) with versions:
+In GEO4902, we currently use the following packages as listed in the [environment file](./environment_geo4902env.yml) with versions:
 
 ```
 >> python:        version 3.10.6 

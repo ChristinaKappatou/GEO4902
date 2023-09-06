@@ -1,0 +1,37 @@
+name: geo4902env
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python==3.11.4
+  - cartopy
+  - nc-time-axis
+  - zarr
+  - xarray
+  - matplotlib
+  - basemap
+  - basemap-data-hires
+  - pydap
+  - cftime
+  - netcdf4
+  - dask
+  - cmcrameri
+  - scipy
+  - jupyter
+  - intake
+  - seaborn
+  - xesmf
+  - ffmpeg
+  - IPython
+  - ipykernel
+  - ipywidgets
+  - jupyter_client
+  - jupyterlab
+  - nbclient
+  - nbconvert
+  - nbformat
+  - notebook
+  - qtconsole
+  - traitlets
