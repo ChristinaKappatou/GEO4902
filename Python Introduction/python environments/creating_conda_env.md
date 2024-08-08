@@ -53,7 +53,7 @@ $ bash Miniconda3-latest-MacOSX-x86_64.sh
 The following steps are taken from the CodeRefinerey workshop software [installation instructions](https://coderefinery.github.io/installation/#), specifically [creating a conda envrionment for CodeRefinerey workshops](https://coderefinery.github.io/installation/conda-environment/#conda-environment).
 
 1. If you have not, activate `conda` in Miniconda first using `conda activate`.
-2. Run the following command
+2. After moving to the directory where you saved the .yml file (cd for change directory), run the following command:
 ```
 $ conda env create -f environment_geo4902env.yml
 
