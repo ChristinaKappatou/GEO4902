@@ -79,7 +79,7 @@ $ conda deactivate
 $ conda install NEW_PACKAGE
 ```
 
-## Remove the `geo4902env` envrionment
+## Remove the `geo4902env` environment
 ```
 $ conda remove --name geo4902env --all
 ```
