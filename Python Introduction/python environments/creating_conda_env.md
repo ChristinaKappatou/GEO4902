@@ -65,11 +65,11 @@ $ conda env create -f environment_geo4902env.yml
 $ conda env list
 ```
 
-## Activate the `geo4902env` envrionment
+## Activate the `geo4902env` environment
 ```
 $ conda activate geo4902env
 ```
-## Deactivate the `geo4902env` envrionment
+## Deactivate the `geo4902env` environment
 ```
 $ conda deactivate
 
