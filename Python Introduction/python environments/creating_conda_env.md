@@ -88,35 +88,34 @@ $ conda remove --name geo4902env --all
 In GEO4902, we currently use the following packages as listed in the [environment file](./environment_geo4902env.yml) with versions:
 
 ```
->> python:        version 3.10.6 
->> nc_time_axis:  version 1.4.1 
->> zarr:          version 2.12.0 
->> xarray:        version 2022.6.0 
->> matplotlib:    version 3.5.3 
->> cftime:        version 1.6.1 
->> dask:          version 2022.9.0 
->> cmcrameri:     version 1.4 
->> scipy:         version 1.9.1 
->> intake:        version 0.6.6 
->> seaborn:       version 0.12.0 
->> xesmf:         version 0.3.0 
->> cartopy:       version 0.21.0 
->> Selected Jupyter core packages... 
->> IPython          : 8.5.0 
->> ipykernel        : 6.15.2 
->> ipywidgets       : 8.0.2 
->> jupyter_client   : 7.0.6 
->> jupyter_core     : 4.11.1 
->> jupyter_server   : not installed 
->> jupyterlab       : not installed 
->> nbclient         : 0.6.8 
->> nbconvert        : 7.0.0 
->> nbformat         : 5.4.0 
->> notebook         : 6.4.12 
->> qtconsole        : 5.3.2 
->> traitlets        : 5.3.0 
+python: version 3.11.4
+nc_time_axis: version 1.4.1
+zarr: version 2.18.2
+xarray: version 2024.7.0
+matplotlib: version 3.8.4
+cftime: version 1.6.4
+dask: version 2024.8.0
+cmcrameri: version 1.8
+scipy: version 1.14.0
+intake: version 2.0.6
+seaborn: version 0.13.2
+xesmf: version 0.8.7
+cartopy: version 0.23.0
+Selected Jupyter core packages...
+IPython          : 8.26.0
+ipykernel        : 6.29.5
+ipywidgets       : 8.1.3
+jupyter_client   : 8.6.2
+jupyter_core     : 5.7.2
+jupyter_server   : 2.14.2
+jupyterlab       : 4.2.4
+nbclient         : 0.10.0
+nbconvert        : 7.16.4
+nbformat         : 5.10.4
+notebook         : 7.2.1
+qtconsole        : 5.5.2
+traitlets        : 5.14.3
 ```
-
 
 To check which versions you have installed run the following in a Jupyter notebook.
 ```
