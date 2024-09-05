@@ -49,7 +49,7 @@ $ bash Miniconda3-latest-MacOSX-x86_64.sh
 
 
 
-## Creating an exisiting virtual environment
+## Creating a virtual environment
 The following steps are taken from the CodeRefinerey workshop software [installation instructions](https://coderefinery.github.io/installation/#), specifically [creating a conda envrionment for CodeRefinerey workshops](https://coderefinery.github.io/installation/conda-environment/#conda-environment).
 
 1. If you have not, activate `conda` in Miniconda first using `conda activate`.
